@@ -1,0 +1,125 @@
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 18px;
+    color: #282828;
+    padding: 0;
+    margin: 0;
+    margin: 0 auto;
+    width: 650px;
+}
+
+/* Navigation */
+
+header {
+    background-color: #282828;
+    cursor: pointer;
+    color: whitesmoke;
+    padding: 15px 0;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.icon {
+    color: whitesmoke;
+    width: 16px;
+}
+
+ul {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    padding: 25px;
+    margin: 0;
+}
+
+/* push the hamburger icon to the right */
+.align-right {
+    margin-left: auto;
+}
+
+/* images sytle */
+img .icon {
+    color: whitesmoke;
+}
+
+.item img {
+    border-radius: 4.85px;
+    /* remove the white space */
+    display: block;
+    width: 100%;
+}
+
+/* first section */
+
+.caption {
+    margin: 25px 0px;
+}
+
+h1 {
+    font-weight: 400;
+    size: 40px;
+}
+
+/* banner style */
+
+.item {
+    /* position relative have to set to the parent element */
+    position: relative;
+}
+
+.img-banner {
+    background-color: #d3803b;
+    color: whitesmoke;
+    padding: 10px 18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* combination */
+
+.chatbox-bg,
+.img-banner,
+button {
+    border: none;
+    background-color: #d3803b;
+    color: whitesmoke;
+}
+
+/* button */
+button {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 18px;
+    /* to create the space in the button */
+    align-self: center
+}
+
+.caption {
+    display: flex;
+    justify-content: space-between;
+    gap: 20;
+    margin: 0 25px;
+}
+
+/* chatbox style */
+.chatbox-bg {
+    background-color: #d3803b;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px #999;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    /* to make the chat box stay on right corner */
+    position: fixed;
+    bottom: 6px;
+    right: 6px;
+}
+
+.chatbox-img {
+    margin: auto;
+}
